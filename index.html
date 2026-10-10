@@ -1,0 +1,422 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8f4">
+  <meta name="description" content="Discover Luna Beauty Studio in Cebu City. Explore hair, nail, facial, makeup and bridal services with friendly stylists and affordable prices.">
+  <title>Luna Beauty Studio | Hair & Beauty Salon in Cebu City</title>
+
+  <!-- Google Fonts: the only external resource used -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- 1. Sticky navigation -->
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Luna Beauty Studio home">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span class="brand-text">
+          <strong>Luna Beauty</strong>
+          <small>HAIR & BEAUTY STUDIO</small>
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 2. Hero -->
+    <section class="hero section" id="home">
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <span class="eyebrow"><span aria-hidden="true">✦</span> YOUR LOCAL BEAUTY DESTINATION</span>
+          <h1>A little self-care.<br>A <span>lovelier you.</span></h1>
+          <p>
+            From fresh haircuts to special-occasion glam, enjoy thoughtful
+            beauty services in a warm, relaxing space in Cebu City.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://www.messenger.com/"
+               target="_blank" rel="noopener noreferrer">
+              Book on Messenger <span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-outline" href="tel:+639XXXXXXXXX">
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone preview-icon"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg> Call Now
+            </a>
+          </div>
+          <div class="hero-note">
+            <span class="star-rating" aria-hidden="true">★★★★★</span>
+            <span>Your beauty, your way — every visit.</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            src="/images/salon.JPG"
+            alt="Bright, modern beauty salon with styling stations"
+            fetchpriority="high"
+          >
+          <div class="hero-badge">
+            <span aria-hidden="true">✿</span>
+            <span>Feel good.<br><strong>Look lovely.</strong></span>
+          </div>
+          <span class="decorative-sparkle sparkle-one" aria-hidden="true">✧</span>
+          <span class="decorative-sparkle sparkle-two" aria-hidden="true">✦</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#services">DISCOVER OUR SERVICES <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <!-- 3. Services and prices -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">A LITTLE SOMETHING FOR YOU</span>
+          <h2>Beauty that fits <span>your style.</span></h2>
+          <p>Everyday refreshes or a special-occasion glow — find your perfect service.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">✂</div>
+            <h3>Hair</h3>
+            <p class="service-description">A fresh cut, a new shade, or a little extra care.</p>
+            <ul class="price-list">
+              <li><span>Haircut</span><strong>₱150–₱350</strong></li>
+              <li><span>Hair Color</span><strong>₱800–₱2,500</strong></li>
+              <li><span>Hair Rebond</span><strong>₱1,500–₱3,500</strong></li>
+              <li><span>Hair Treatment</span><strong>₱500–₱1,500</strong></li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">♡</div>
+            <h3>Nails</h3>
+            <p class="service-description">Neat, polished nails for your everyday look.</p>
+            <ul class="price-list">
+              <li><span>Manicure</span><strong>₱150</strong></li>
+              <li><span>Pedicure</span><strong>₱180</strong></li>
+              <li><span>Mani-Pedi</span><strong>₱300</strong></li>
+              <li><span>Gel Polish</span><strong>₱450–₱800</strong></li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">✿</div>
+            <h3>Facial & Skin</h3>
+            <p class="service-description">A refreshing treat to help you feel renewed.</p>
+            <ul class="price-list">
+              <li><span>Basic Facial</span><strong>₱500</strong></li>
+              <li><span>Deep-Cleansing Facial</span><strong>₱800</strong></li>
+              <li><span>Hydrating Facial</span><strong>₱900</strong></li>
+              <li><span>Face Mask Add-on</span><strong>₱250</strong></li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">✧</div>
+            <h3>Makeup & Bridal</h3>
+            <p class="service-description">Feel confident and camera-ready for your big day.</p>
+            <ul class="price-list">
+              <li><span>Everyday Makeup</span><strong>₱800</strong></li>
+              <li><span>Event Makeup</span><strong>₱1,500</strong></li>
+              <li><span>Bridal Makeup</span><strong>₱3,500</strong></li>
+              <li><span>Hair Styling</span><strong>₱500–₱1,200</strong></li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="price-note">
+          Prices are sample portfolio-demo rates in Philippine pesos.
+          Final rates may vary by hair length, product use, and service requirements.
+          Please message us for a quotation.
+        </p>
+        <div class="center-action">
+          <a class="button button-primary" href="https://www.messenger.com/"
+             target="_blank" rel="noopener noreferrer">Ask About a Service ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Gallery -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">A LITTLE BEAUTY INSPIRATION</span>
+          <h2>Looks we <span>love.</span></h2>
+          <p>Explore hairstyle, nail, skincare, and makeup inspiration.</p>
+        </div>
+
+        <div class="gallery-grid">
+        <button class="gallery-item gallery-tall" type="button"
+  data-full="/images/hair-maintenance-maintainstyle-floridaacademy-scaled.jpg"
+  data-caption="Soft, flowing hairstyle inspiration"
+  aria-label="Enlarge soft, flowing hairstyle photo">
+  <img src="/images/hair-maintenance-maintainstyle-floridaacademy-scaled.jpg" alt="Long, styled hair inspiration" loading="lazy">
+  <span class="gallery-overlay">Hair styling <span aria-hidden="true">↗</span></span>
+</button>
+
+
+          <button class="gallery-item" type="button"
+            data-full="/images/makeup.JPG"
+            data-caption="Natural makeup inspiration"
+            aria-label="Enlarge natural makeup photo">
+            <img src="/images/makeup.JPG"
+              alt="Beauty portrait with natural makeup" loading="lazy">
+            <span class="gallery-overlay">Makeup <span aria-hidden="true">↗</span></span>
+          </button>
+
+          <button class="gallery-item" type="button"
+            data-full="/images/nail.JPG"
+            data-caption="Manicure and nail-art inspiration"
+            aria-label="Enlarge manicure and nail-art photo">
+            <img src="/images/nail.JPG"
+              alt="Nail manicure and nail-art inspiration" loading="lazy">
+            <span class="gallery-overlay">Nails <span aria-hidden="true">↗</span></span>
+          </button>
+
+          <button class="gallery-item" type="button"
+            data-full="/images/hairsalon.JPG"
+            data-caption="Fresh salon hairstyle inspiration"
+            aria-label="Enlarge salon hairstyle photo">
+            <img src="/images/hairsalon.JPG"
+              alt="Salon hair styling inspiration" loading="lazy">
+            <span class="gallery-overlay">Hair care <span aria-hidden="true">↗</span></span>
+          </button>
+
+          <button class="gallery-item gallery-tall" type="button"
+            data-full="/images/makeupkit.JPG"
+            data-caption="Beauty and makeup essentials"
+            aria-label="Enlarge beauty products photo">
+            <img src="/images/makeupkit.JPG"
+              alt="Makeup brushes and beauty products" loading="lazy">
+            <span class="gallery-overlay">Beauty essentials <span aria-hidden="true">↗</span></span>
+          </button>
+
+          <button class="gallery-item" type="button"
+            data-full="/images/person.JPG"
+            data-caption="Beauty portrait inspiration"
+            aria-label="Enlarge beauty portrait photo">
+            <img src="/images/person.JPG"
+              alt="Portrait showcasing a polished beauty look" loading="lazy">
+            <span class="gallery-overlay">Beauty looks <span aria-hidden="true">↗</span></span>
+          </button>
+
+          <button class="gallery-item" type="button"
+            data-full="/images/hairspa.JPG"
+            data-caption="Hair salon and styling inspiration"
+            aria-label="Enlarge hair salon photo">
+            <img src="/images/hairspa.JPG"
+              alt="Hair salon styling inspiration" loading="lazy">
+            <span class="gallery-overlay">Salon style <span aria-hidden="true">↗</span></span>
+          </button>
+
+          <button class="gallery-item" type="button"
+            data-full="/images/makeup1.JPG"
+            data-caption="Makeup palette inspiration"
+            aria-label="Enlarge makeup palette photo">
+            <img src="/images/makeup1.JPG"
+              alt="Makeup palette and cosmetics" loading="lazy">
+            <span class="gallery-overlay">Makeup artistry <span aria-hidden="true">↗</span></span>
+          </button>
+
+          <button class="gallery-item" type="button"
+            data-full="/images/nailfresh.JPG"
+            data-caption="Nail color inspiration"
+            aria-label="Enlarge nail color photo">
+            <img src="/images/nailfresh.JPG"
+              alt="Nail polish and manicure color inspiration" loading="lazy">
+            <span class="gallery-overlay">Nail colors <span aria-hidden="true">↗</span></span>
+          </button>
+        </div>
+        <p class="gallery-note">Gallery images are visual references for this portfolio demo, not verified client results.</p>
+      </div>
+    </section>
+
+    <!-- Gallery lightbox -->
+    <dialog class="lightbox" aria-label="Gallery image viewer">
+      <button class="lightbox-close" type="button" aria-label="Close image viewer">×</button>
+      <button class="lightbox-prev" type="button" aria-label="Previous image">‹</button>
+      <figure>
+        <img class="lightbox-image" src="" alt="">
+        <figcaption class="lightbox-caption"></figcaption>
+      </figure>
+      <button class="lightbox-next" type="button" aria-label="Next image">›</button>
+    </dialog>
+
+    <!-- 5. About -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <img
+            src="/images/hairplace.JPG"
+            alt="Inviting salon interior with professional styling chairs"
+            loading="lazy"
+          >
+          <div class="about-stamp"><span>YOUR</span><strong>ME-TIME</strong><span>STARTS HERE</span></div>
+        </div>
+
+        <div class="about-copy">
+          <span class="eyebrow">A WARM WELCOME AT LUNA</span>
+          <h2>Your beauty time<br>is <span>your time.</span></h2>
+          <p>
+            Luna Beauty Studio was imagined as a welcoming neighborhood salon
+            where Cebu locals can take a break from busy days, refresh their
+            look, and enjoy a little time for themselves.
+          </p>
+          <p>
+            Whether you're preparing for a celebration or simply ready for a
+            change, our goal is to make every visit feel comfortable, personal,
+            and worth looking forward to.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight">
+              <span class="highlight-icon" aria-hidden="true">✧</span>
+              <div><h3>Experienced Stylists</h3><p>Care and attention to your chosen look.</p></div>
+            </div>
+            <div class="highlight">
+              <span class="highlight-icon" aria-hidden="true">♡</span>
+              <div><h3>Quality Products</h3><p>Thoughtful product choices for each service.</p></div>
+            </div>
+            <div class="highlight">
+              <span class="highlight-icon" aria-hidden="true">❀</span>
+              <div><h3>Relaxing Space</h3><p>A friendly setting for your self-care break.</p></div>
+            </div>
+          </div>
+          <a class="text-link" href="#contact">Come say hello <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <p class="demo-disclaimer container">Luna Beauty Studio is a fictional business created for a website portfolio demonstration.</p>
+    </section>
+
+    <!-- 6. Opening hours -->
+    <section class="section hours-section" id="hours">
+      <div class="container hours-container">
+        <div class="section-heading">
+          <span class="eyebrow">PLAN YOUR VISIT</span>
+          <h2>Time for a <span>little pampering.</span></h2>
+          <p>Check our sample weekly schedule before you drop by.</p>
+        </div>
+
+        <div class="hours-card">
+          <div class="hours-intro">
+            <span class="hours-icon" aria-hidden="true">◷</span>
+            <h3>Opening Hours</h3>
+            <p>We look forward to welcoming you.</p>
+          </div>
+          <table class="hours-table">
+            <caption class="visually-hidden">Weekly opening hours for Luna Beauty Studio</caption>
+            <tbody>
+              <tr data-day="1"><th scope="row">Monday</th><td>9:00 AM – 7:00 PM</td></tr>
+              <tr data-day="2"><th scope="row">Tuesday</th><td>9:00 AM – 7:00 PM</td></tr>
+              <tr data-day="3"><th scope="row">Wednesday</th><td>9:00 AM – 7:00 PM</td></tr>
+              <tr data-day="4"><th scope="row">Thursday</th><td>9:00 AM – 7:00 PM</td></tr>
+              <tr data-day="5"><th scope="row">Friday</th><td>9:00 AM – 7:00 PM</td></tr>
+              <tr data-day="6"><th scope="row">Saturday</th><td>9:00 AM – 8:00 PM</td></tr>
+              <tr data-day="0"><th scope="row">Sunday</th><td>10:00 AM – 5:00 PM</td></tr>
+            </tbody>
+          </table>
+          <p class="hours-footnote">Hours shown are illustrative demo hours.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-panel">
+          <div class="contact-copy">
+            <span class="eyebrow">WE'D LOVE TO HEAR FROM YOU</span>
+            <h2>Ready for your<br><span>next fresh look?</span></h2>
+            <p>Ask about our services, check availability, or plan your next visit. Choose the easiest way to reach us.</p>
+            <div class="contact-address">
+              <span aria-hidden="true">⌖</span>
+              <div>
+                <strong>Visit Luna Beauty Studio</strong>
+                <p class="business-address">Cebu City, Cebu, Philippines</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a class="contact-button messenger-button"
+               href="https://m.me/YOUR_PAGE_NAME"
+               target="_blank" rel="noopener noreferrer">
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle preview-icon"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg>
+              <span><strong>Message Us</strong><small>Chat on Messenger</small></span>
+              <span class="button-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a class="contact-button call-button" href="tel:+639XXXXXXXXX">
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone preview-icon"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+              <span><strong>Call the Studio</strong><small>Speak with our team</small></span>
+              <span class="button-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a class="contact-button map-button"
+               href="https://www.google.com/maps/search/?api=1&query=Cebu+City%2C+Cebu%2C+Philippines"
+               target="_blank" rel="noopener noreferrer">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin preview-icon"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+              <span><strong>Find Our Location</strong><small>Open Google Maps</small></span>
+              <span class="button-arrow" aria-hidden="true">→</span>
+            </a>
+            <p class="contact-note">This demo uses placeholder contact details.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. Footer -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#home" aria-label="Luna Beauty Studio, back to home">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span class="brand-text">
+          <strong>Luna Beauty</strong>
+          <small>HAIR & BEAUTY STUDIO</small>
+        </span>
+      </a>
+      <p>Feel good in your own kind of beautiful.</p>
+      <div class="footer-links">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook ↗</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+        <a href="/index.html">Back to top ↑</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="current-year">2026</span> Luna Beauty Studio. Portfolio demo only.</p>
+        <a href="#home">Made with care <span aria-hidden="true">♡</span></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
